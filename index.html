@@ -5,30 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Mariano Cruz</title>
 </head>
 
 <body>
-    <section id="hero-image">
-    <div>
-        <ul>
-            <li><a href="">About Me</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Portfolio</a></li>
-        </ul>
+    <section id="testVid" data-video="skyline">
+        <video autoplay loop>
+            <source src="skyline.mp4" type="video/mp4">
+            <source src="skyline.webm" type="video/webm">
+        </video>
+        <div>
+            <ul>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="">Portfolio</a></li>
+            </ul>
             <div class="hero-text">
-              <h1>Mariano Cruz</h1>
-              <p>Designer, Full Stack Developer</p>
+                <h1>Mariano Cruz</h1>
+                <p>Full Stack Developer</p>
             </div>
-          </div>
+        </div>
     </section>
     <section id="firstPara">
         <div class="featurette">
             <img class="featurette-image pull-left" src="./react-icon.png" alt="">
             <h2 class="featurette-heading">Mariano Cruz</h2>
-            <p class="lead">I am a highly creative visonary with a strong background in front-end/back-end development.</p>
+            <p class="lead">I am a highly creative visonary with a strong background in front-end/back-end development.
+            </p>
         </div>
     </section>
     <hr class="featurette-divider">
@@ -38,13 +44,22 @@
                 Skills
             </h2>
             <div class="container">
-                    <h5>Developer</h5>
-                    <p>JavaScript</p>
-                    <p>React</p>
-                    <p>Node.JS</p>
-                    <p>JQuery</p>
-                    <p>HTML5</p>
-                    <p>Bootstrap</p>
+                <div class="row">
+                    <div class="col-sm">
+                        <p>JavaScript</p>
+                        <img src="./javascript_logo_png_728629.png" alt="a javascript logo" width="100px">
+                    </div>
+                    <!-- <p>JavaScript</p> -->
+                    <div class="col-sm">
+                        <p>React</p>
+                        <img src="./react-icon.png" alt="" width="100px">
+                    </div>
+                    <!-- <p>React</p>
+                        <p>Node.JS</p>
+                        <p>JQuery</p>
+                        <p>HTML5</p>
+                        <p>Bootstrap</p> -->
+                </div>
             </div>
         </div>
     </section>
@@ -54,6 +69,12 @@
             <h2 class="featurette-heading text-center">Projects</h2>
         </div>
     </section>
+    <!-- <section id="testVid" data-video="skyline">
+    <video autoplay loop>
+        <source src="skyline.mp4" type="video/mp4">
+        <source src="skyline.webm" type="video/webm">
+    </video>
+    </section> -->
 </body>
 
 </html>

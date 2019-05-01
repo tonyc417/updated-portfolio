@@ -75,6 +75,33 @@ img {
   letter-spacing: -1px;
 }
 
+#testVid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 0;
+  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+#testVid video {
+  transform: translateX(50%) translateY(50%);
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  width: 0;
+  height: auto;
+  min-width: 100%;
+  min-height: 10%;
+  overflow: hidden;
+}
+
 
 /* #secondPara {
   background-color: red;
