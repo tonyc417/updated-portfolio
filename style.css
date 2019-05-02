@@ -58,8 +58,18 @@ h2 {
   margin-inline-end: 0px;
 }
 
+.projectGif {
+  margin-left: 24em;
+  width: 520px;
+  height: 340px;
+}
+
 .pull-left {
   float: left;
+}
+
+.round {
+  border-radius: 1.875rem;
 }
 
 img {
