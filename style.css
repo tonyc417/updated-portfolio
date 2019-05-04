@@ -26,7 +26,8 @@ body, html {
 }
 
 #hero-image {
-  height: 70%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./dallas-back.jpg");
+  height: 80%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,7 +60,7 @@ h2 {
 }
 
 .projectGif {
-  margin-left: 24em;
+  margin-left: 10em;
   width: 520px;
   height: 340px;
 }
