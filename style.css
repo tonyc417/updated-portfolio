@@ -1,12 +1,12 @@
-ul {
+/* ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-}
+} */
   
-li {
+/* li {
     float: right;
 }
   
@@ -16,16 +16,17 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+} */
 
 body, html {
     height: 100%;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    background-repeat: no-repeat;
+
 }
 
 #hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("thailand.jpg");
   height: 70%;
-  /* padding: 16em 0 13em 0; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,7 +41,6 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
-
 
 .featurette {
   overflow: hidden;
@@ -111,8 +111,3 @@ img {
   min-height: 10%;
   overflow: hidden;
 }
-
-
-/* #secondPara {
-  background-color: red;
-} */
