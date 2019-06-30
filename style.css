@@ -116,3 +116,47 @@ img {
   min-height: 10%;
   overflow: hidden;
 }
+
+
+.cursor {
+  width: 30px;
+  height: 30px;
+  border: 3px solid white;
+  border-radius: 50%;
+  position: absolute;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  animation: anim .5s infinite alternate;
+  pointer-events: none;
+}
+
+.cursor::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border: 8px solid blueviolet;
+  border-radius: 50%;
+  opacity: .8;
+  top: -8px;
+  left: -8px;
+  animation: anim2 .5s infinite alternate;
+}
+
+@keyframes anim {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(.5);
+  }
+}
+
+@keyframes anim2 {
+   from {
+       transform: scale(1);
+   }
+   to {
+       transform: scale(.5);
+   }
+}
