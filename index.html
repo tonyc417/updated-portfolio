@@ -28,8 +28,8 @@
                     <a class="nav-link" href="#secondPara">My Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"
-                        href="https://drive.google.com/file/d/1kHE6VlrdVsx9z6XQ8NC-7cAtPNXVsToC/view" target="_blank">Resume</a>
+                    <a class="nav-link" href="https://drive.google.com/file/d/1kHE6VlrdVsx9z6XQ8NC-7cAtPNXVsToC/view"
+                        target="_blank">Resume</a>
                 </li>
             </ul>
             <div class="hero-text">
@@ -70,7 +70,8 @@
                 <div class="row text-center">
                     <div class="col-sm">
                         <p class="font-weight-bold">JavaScript</p>
-                        <img src="images/javascript_logo_png_728629.png" alt="a javascript logo" class="hvr-grow" width="100px">
+                        <img src="images/javascript_logo_png_728629.png" alt="a javascript logo" class="hvr-grow"
+                            width="100px">
                     </div>
                     <div class="col-sm">
                         <p class="font-weight-bold">React</p>
@@ -167,17 +168,20 @@
     <hr class="featurette-divider">
     <section id="contactMe">
         <div class="featurette text-center">
-            <h2 class="featurette-heading">Let's work together</h2>
-            <div>
-                <label for="name"> Name</label>
-                <input type="text">
-            </div>
-            <div>
-                <label for="email">Email</label>
-                <input type="email">
-            </div>
-            <a href="mailto:tonycruz417@gmail.com" class="btn btn-primary btn-lg round">Contact Me</a>
+            <form name="contact" method="post" data-netlify="true">
+                <h2 class="featurette-heading">Let's work together</h2>
+                <div>
+                    <label for="name"> Name</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email">
+                    <button type="submit">Send</button>
+                </div>
+                <a href="mailto:tonycruz417@gmail.com" class="btn btn-primary btn-lg round">Contact Me</a>
         </div>
+        </form>
     </section>
     <script src="script.js"></script>
 </body>
