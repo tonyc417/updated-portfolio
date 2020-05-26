@@ -166,3 +166,13 @@ img {
        transform: scale(.5);
    }
 }
+
+/* For phones */
+
+@media only screen and (max-width: 875px) {
+  
+.mobHead {
+  margin-top: 350px;
+}
+
+}
