@@ -171,8 +171,8 @@ img {
 
 @media only screen and (max-width: 875px) {
   
-.mobHead {
-  margin-top: 350px;
+#thirdPara {
+  text-align: center;
 }
 
 }
