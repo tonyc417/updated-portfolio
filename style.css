@@ -169,7 +169,16 @@ img {
 
 /* For phones */
 
-@media only screen and (max-width: 875px) {
+@media only screen and (max-width: 1450px) {
+
+#firstPara {
+  text-align: center;
+}
+
+.featurette-image {
+  margin-right: 4em;
+  margin-left: 6em;
+}
   
 #thirdPara {
   text-align: center;
